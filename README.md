@@ -1,8 +1,7 @@
 # Local Business  Page – UI/UX Project
-
-This project is a simple static product listing page created for the **UI and UX Design** course at Christ University.  
-It showcases multiple products with their images and prices in a clean and minimal layout.  
-There is **no backend, no payment gateway, and no JavaScript functionality** — this is purely a design project.
+- This project is a simple static product listing page created for the **UI and UX Design** course at Christ University.  
+- It showcases multiple products with their images and prices in a clean and minimal layout.  
+- There is **no backend, no payment gateway, and no JavaScript functionality** — this is purely a design project.
 ---
 ## Features
 - Displays product images with names and prices  
