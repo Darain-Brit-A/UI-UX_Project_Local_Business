@@ -1,0 +1,146 @@
+/* ==== main body styles ==== */
+body {
+    background: #e0f5e9; /* light green bg */
+    color: #2e7d32; /* text green */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ==== header ==== */
+header {
+    background: #004d40; /* dark green top bar */
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+/* ==== navigation menu ==== */
+nav {
+    background: #085d53; /* greenish bar */
+    padding: 8px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* ==== banner image ==== */
+.banner img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+/* ==== divider line ==== */
+hr {
+    border: none;
+    height: 3px;
+    background: #004d40;
+    margin: 20px 0;
+}
+
+/* ==== headings ==== */
+h2 {
+    text-align: center;
+}
+
+/* ==== product list grid ==== */
+.products-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* space between */
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+/* ==== product card ==== */
+.products-class {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 220px; /* fixed card width */
+}
+
+.products-class img {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+}
+
+/* ==== buy button ==== */
+.buy-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #2e7d32; /* green */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.buy-btn:hover {
+    background: #1b5e20; /* darker green */
+}
+
+/* ==== content section boxes ==== */
+.about_section {
+    padding: 40px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* ==== small sections ==== */
+.section {
+    margin-top: 30px;
+}
+
+.section h3 {
+    color: #1b5e20;
+}
+
+.section p {
+    line-height: 1.8;
+}
+
+/* ==== contact form ==== */
+.contact_form input,
+.contact_form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact_form button {
+    background: #2e7d32;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.contact_form button:hover {
+    background: #1b5e20;
+}
