@@ -1,4 +1,4 @@
-#bLocal Business  Page – UI/UX Project
+# Local Business  Page – UI/UX Project
 
 This project is a simple static product listing page created for the **UI and UX Design** course at Christ University.  
 It showcases multiple products with their images and prices in a clean and minimal layout.  
